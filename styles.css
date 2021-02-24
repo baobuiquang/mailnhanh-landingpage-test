@@ -1,0 +1,229 @@
+:root {
+    --theme-color: #21C777;
+    --theme-color-hover: #18a05e;
+    --theme-color-2: #F6F6FF;
+    --gray-color-1: #858585;
+    --gray-color-2: #5a5a5a;
+}
+
+mark {
+    height: 20px;
+}
+
+h4 {
+    font-weight: 500;
+    line-height: 1.5;
+}
+h5 {
+    font-weight: 500;
+}
+h6 {
+    font-weight: 500;
+}
+
+a {
+    color: #1d1d1d;
+    text-decoration: none;
+} a:hover {
+    color: var(--theme-color-hover);
+    text-decoration: none;
+}
+
+/* ---------------------------------------- Button ---------------------------------------- */
+.button-1 {
+    font-size: 16px;
+    background-color: var(--theme-color);
+    color: #ffffff;
+    border: none; 
+    border-radius: 6px;
+    padding: 10px 42px;
+} .button-1:hover {
+    background-color: var(--theme-color-hover);
+}
+
+.button-2 {
+    font-size: 16px;
+    background-color: var(--theme-color);
+    color: #ffffff;
+    border: none; 
+    border-radius: 6px;
+    padding: 12px 32px;
+} .button-2:hover {
+    background-color: var(--theme-color-hover);
+}
+
+.button-3 {
+    font-size: 14px;
+    font-weight: 600;
+    background-color: transparent;
+    color: #292929;
+    border: 3px solid var(--theme-color); 
+    border-radius: 100px;
+    padding: 7px 24px 8px 24px;
+} .button-3:hover {
+    color: #ffffff;
+    background-color: var(--theme-color);
+}
+
+.h1-underline {
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background-color: var(--theme-color);
+}
+
+.svg-icon {
+    z-index: -1;
+    filter: contrast(0) brightness(1.2); 
+    position: relative; 
+    top: 7px;
+}
+.h6-text {
+    display: inline;
+    color: var(--gray-color-1);
+}
+
+.bg-rect-wrap {
+    z-index: -3;
+    width: 100%; 
+    height: 100vh; 
+    position: absolute;
+    overflow: hidden;
+}
+.bg-rect {
+    position: absolute;
+    right: -12vw;
+    top: -6vw;
+    z-index: -2;
+    height: 60vw;
+    width: 45vw;
+    background: rgb(163,255,211);
+    background: linear-gradient(45deg, rgba(163,255,211,1) 0%, rgba(35,225,134,1) 100%);
+    transform: rotate(30deg);
+    border-radius: 3vw;
+}
+
+.shadow {
+    box-shadow: 0px 0px 50px 4px #00000015;
+} .shadow:hover {
+    box-shadow: 0px 0px 50px 4px #00000030;
+}
+
+.hd-padding-top {
+    padding-top: 20vh;
+} @media screen and (max-width: 768px) {
+    .hd-padding-top {
+        padding-top: 16vh;
+    }
+} 
+
+.intgrt-img {
+    width: 70%;
+    margin: 6vh 15% 0 15%;
+}
+@media screen and (max-width: 768px) {
+    .intgrt-img {
+        width: 50%;
+        margin: 2vh 25% 2vh 25%;
+    }
+}
+
+.features-img {
+    width: 100%;
+    border-radius: 16px;
+}
+.features-left {
+    padding-right: 4%;
+} @media screen and (max-width: 768px) {
+    .features-left {
+        padding-right: 0;
+    }
+}
+.features-right {
+    padding-left: 4%;
+} @media screen and (max-width: 768px) {
+    .features-right {
+        padding-left: 0;
+    }
+}
+.features-svg-icon {
+
+}
+.features-h4-text {
+    text-align: justify;
+}
+
+
+.bg-rect-2-wrap {
+    z-index: -3;
+    width: 100%; 
+    height: 30vw; 
+    position: absolute;
+    overflow: hidden;
+}
+.bg-rect-2 {
+    position: absolute;
+    left: 8.33vw;
+    top: 0vw;
+    z-index: -2;
+    height: 10vw;
+    width: 10vw;
+    background: rgb(163,255,211);
+    background: linear-gradient(45deg, rgba(163,255,211,1) 0%, rgba(35,225,134,1) 100%);
+    /* transform: rotate(30deg); */
+    border-radius: 1vw;
+}
+.bg-rect-3-wrap {
+    z-index: -3;
+    width: 100%; 
+    height: 30vw; 
+    position: absolute;
+    overflow: hidden;
+}
+.bg-rect-3 {
+    position: absolute;
+    right: 8.33vw;
+    top: 20vh;
+    z-index: -2;
+    height: 10vw;
+    width: 10vw;
+    background: rgb(163,255,211);
+    background: linear-gradient(45deg, rgba(163,255,211,1) 0%, rgba(35,225,134,1) 100%);
+    /* transform: rotate(30deg); */
+    border-radius: 100%;
+}
+
+.testimonials-card {
+    margin: 3vw;
+    background-color: antiquewhite;
+    padding: 32px;
+    border-radius: 12px;
+    
+    background: rgba(255,255,255,0.4);
+    border-radius: 10px;
+    border: 1px solid rgba(211, 211, 211, 0.288);
+    backdrop-filter: blur(5px);
+   -webkit-backdrop-filter: blur(5px);
+   /* box-shadow: 0 8px 32px 0 rgba(133, 133, 133, 0.212); */
+}
+
+
+.footer-link {
+    font-size: 14px;
+    padding-top: 10px;
+} @media screen and (max-width: 768px) {
+    .footer-link {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+}
+
+.h4-ques-style {
+    text-align: center; 
+    margin-top: 8vw;
+} @media screen and (max-width: 768px) {
+    .h4-ques-style {
+        text-align: justify; 
+        margin: 15vh 8.33%;
+    }
+}

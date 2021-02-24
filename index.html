@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MailNhanh</title>
+  <meta name="description" content="MailNhanh | The best mailing service" />
+  <link rel="shortcut icon" href="./assets/favicon.png">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@100;200;300;400;500;700;900&amp;display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
+  <!-- Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer></script>
+  <!-- Creatoper Framework -->
+  <!-- https://unpkg.com/creatoper/creatoper.css/js -->
+  <script src="./creatoper/creatoper.js" defer></script>
+  <link href="./creatoper/creatoper.css" rel="stylesheet">
+  <link href="./creatoper/creatoper-control.css" rel="stylesheet">
+  <!-- Custom CSS and JS -->
+  <script src="./scripts.js" defer></script>
+  <link href="./styles.css" rel="stylesheet">
+</head>
+
+<!-- Scroll To Top  -->
+<button onclick="scrollToTop()" id="scrolltotop">&uarr;</button>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <div class="fixed-top-navbar-wrap">
+    <div class="fixed-top-navbar-fixed">
+      <nav class="fixed-top-navbar" style="box-shadow: 0px 0px 50px 4px #00000010;">
+        <a href="https://mailnhanh.com">
+          <img src="./assets/logo-mailnhanh.png" style="height: 32px;">
+        </a>
+        <a href="https://mailnhanh.com" style="transition: all 0.1s;">
+          <div style="font-size: 22px; font-weight: 700; margin-left: 1vw;">MailNhanh</div>
+        </a>
+        <div class="push-right">
+          <button id="menu-toggler" data-class="menu-active" class="hamburger">
+            <span class="hamburger-line hamburger-line-top"></span>
+            <span class="hamburger-line hamburger-line-middle"></span>
+            <span class="hamburger-line hamburger-line-bottom"></span>
+          </button>
+          <ul id="primary-menu" class="menu nav-menu">
+            <li class="menu-item current-menu-item">
+              <a class="nav__link anchor-link" href="#features">Features</a>
+            </li>
+            <li class="menu-item current-menu-item">
+              <a class="nav__link" href="#">How to use</a>
+            </li>
+            <li class="menu-item current-menu-item">
+              <a class="nav__link anchor-link" href="#footer">Contact</a>
+            </li>
+            <li class="menu-item dropdown">
+              <a class="nav__link" href="#">Language</a>
+              <ul class="sub-nav">
+                <li><a class="sub-nav__link" href="#">English</a></li>
+                <li><a class="sub-nav__link" href="#">Tiếng Việt</a></li>
+              </ul>
+            </li>
+            <li class="menu-item current-menu-item"><a class="nav__link"
+                href="https://chrome.google.com/webstore/detail/mailnhanh/npdlcdphomcppnhphhjciapggdpfklfg"
+                target="_blank">
+                <button class="button-1 shadow">Download</button>
+              </a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div style="margin: 0;">.</div>
+  </div>
+
+  <!-- Introduction -->
+  <div class="bg-rect-wrap">
+    <div class="bg-rect shadow"></div>
+  </div>
+  <div class="row hd-padding-top" style="height: 100vh;">
+    <div class="col-1 none-display">.</div>
+    <div class="col-5">
+      <h1>
+        <div style="float: left;">Send</div>
+        <div style="float: left; position: relative; margin-left: 0.5ch; z-index: -1;">
+          better emails
+          <div class="h1-underline"></div>
+        </div>
+        <br>
+        <div style="float: left;">that get</div>
+        <div style="float: left; position: relative; margin-left: 0.5ch; z-index: -1;">
+          more replies
+          <div class="h1-underline"></div>
+        </div>
+        <br>
+      </h1>
+      <h5>
+        Start an email marketing campaign, install in just 3 seconds.
+      </h5>
+      <a href="https://chrome.google.com/webstore/detail/mailnhanh/npdlcdphomcppnhphhjciapggdpfklfg" target="_blank">
+        <button class="button-2 shadow">Download now - It's FREE!</button>
+      </a>
+      <br><br>
+      <img class="svg-icon" src="./assets/check.svg">
+      <h6 class="h6-text">Available on Chrome Web Store</h6>
+      <br>
+      <img class="svg-icon" src="./assets/check.svg">
+      <h6 class="h6-text">Free, no credit card required</h6>
+      <br>
+      <img class="svg-icon" src="./assets/check.svg">
+      <h6 class="h6-text">Install quickly</h6>
+      <br><br>
+    </div>
+    <div class="col-5">
+      <img src="./assets/mailnhanh-header.png" class="shadow just-display-on-desktop"
+        style="width: 100%; border-radius: 16px;">
+    </div>
+  </div>
+
+  <!-- Integrated -->
+  <div style="background-color: var(--theme-color-2); padding: 6vh 0;">
+    <div style="text-align: center; font-weight: 600; color: var(--gray-color-2);">
+      MAILNHANH IS 100% INTEGRATED WITH
+    </div>
+    <div class="row">
+      <div class="col-4 none-display">.</div>
+      <div class="col-2">
+        <img src="./assets/gmail.png" class="intgrt-img">
+      </div>
+      <div class="col-2">
+        <img src="./assets/gsuite.png" class="intgrt-img">
+      </div>
+    </div>
+  </div>
+
+  <!-- Features -->
+  <h4 class="h4-ques-style">
+    You want to start an email marketing campaign, save time when sending emails to customers,<br>
+    or just want to create a beautiful email with a few clicks?
+  </h4>
+  <div id="features">
+    <h3 style="text-align: center; margin-top: 8vw;">
+      MailNhanh is the best tool for you!
+    </h3>
+    <!-- Feature 1 -->
+    <div class="row" style="margin-top: 10vw;">
+      <div class="col-1 none-display">.</div>
+      <div class="col-5 features-left">
+        <img class="features-img" src="./assets/1.png">
+      </div>
+      <div class="col-5 features-right">
+        <img class="features-svg-icon" src="./assets/send.svg" style="margin-top: 5vh;">
+        <h2>
+          99% emails<br>
+          sent to inbox successfully
+        </h2>
+        <h4 class="features-h4-text">
+          Unlike other mailing services that use third-party intermediary servers, MailNhanh sends emails from Google's
+          own email server, so the rate of successful emails sent to inbox using MailNhanh reaches 99%.
+        </h4>
+      </div>
+    </div>
+    <!-- Feature 2 -->
+    <div class="row" style="margin-top: 10vw;">
+      <div class="col-1 none-display">.</div>
+      <div class="col-5 features-left">
+        <img class="features-svg-icon" src="./assets/square.svg" style="margin-top: 5vh;">
+        <img class="features-svg-icon" src="./assets/mouse-pointer.svg"
+          style="margin-top: 5vh; position: relative; left: -22px; top: 14px; z-index: -1;">
+        <h2>
+          Easy to use<br>
+          with drag and drop
+        </h2>
+        <h4 class="features-h4-text">
+          MailNhanh provides powerful drag and drop tools to help you create your own email design or edit many
+          beautiful
+          pre-made email templates that we provide.
+        </h4>
+      </div>
+      <div class="col-5 features-right">
+        <img class="features-img" src="./assets/2.png">
+      </div>
+    </div>
+    <!-- Feature 3 -->
+    <div class="row" style="margin-top: 10vw;">
+      <div class="col-1 none-display">.</div>
+      <div class="col-5 features-left">
+        <img class="features-img" src="./assets/3.png">
+      </div>
+      <div class="col-5 features-right">
+        <img class="features-svg-icon" src="./assets/layers.svg" style="margin-top: 5vh;">
+        <h2>
+          Simple clicks<br>
+          to start a marketing campaign
+        </h2>
+        <h4 class="features-h4-text">
+          MailNhanh allows you to draft and schedule perfect time to start your email marketing campaign.
+        </h4>
+      </div>
+    </div>
+    <!-- Feature 4 -->
+    <div class="row" style="margin-top: 10vw;">
+      <div class="col-1 none-display">.</div>
+      <div class="col-5 features-left">
+        <img class="features-svg-icon" src="./assets/user-check.svg" style="margin-top: 5vh;">
+        <h2>
+          Personalize emails<br>
+          for your customers
+        </h2>
+        <h4 class="features-h4-text">
+          Create personalized emails with the correct title, first name, last name, information, etc, for each of your
+          customers in just some clicks.
+        </h4>
+      </div>
+      <div class="col-5 features-right">
+        <img class="features-img" src="./assets/4.png">
+      </div>
+    </div>
+    <!-- Feature 5 -->
+    <div class="row" style="margin-top: 10vw;">
+      <div class="col-1 none-display">.</div>
+      <div class="col-5 features-left">
+        <img class="features-img" src="./assets/5.png">
+      </div>
+      <div class="col-5 features-right">
+        <img class="features-svg-icon" src="./assets/trending-up.svg" style="margin-top: 5vh;">
+        <h2>
+          Know your customers<br>
+          with analysis chart and more
+        </h2>
+        <h4 class="features-h4-text">
+          Track opens, clicks, replies, interactions with links, buttons, entry forms in the email. Report email reading
+          rate, link clicks, unsubscribe, etc, according to analysis chart.
+        </h4>
+      </div>
+    </div>
+  </div>
+
+  <!-- Call to Action - Download -->
+  <div style="background-color: var(--theme-color-2); padding: 5vh 0; margin-top: 10vw;">
+    <h3 style="text-align: center; margin-bottom: 0px;">
+      Ready to reach and gain more customers?
+    </h3>
+    <div style="text-align: center; color: var(--gray-color-2); font-weight: 600; margin: 3vh 0 2.5vw 0;">
+      The big things always start with small steps.
+    </div>
+    <div class="row-5">
+      <div class="col none-display">.</div>
+      <div class="col none-display">.</div>
+      <div class="col">
+        <a href="https://chrome.google.com/webstore/detail/mailnhanh/npdlcdphomcppnhphhjciapggdpfklfg" target="_blank">
+          <button class="button-2 shadow" style="width: 100%;">
+            Download now - It's FREE!
+          </button>
+        </a>
+      </div>
+    </div>
+    <h6 style="text-align: center; color: var(--gray-color-1); margin-top: 3vh;">
+      3 seconds to install!
+    </h6>
+  </div>
+
+  <!-- Testimonials -->
+  <div id="testimonials">
+    <h3 style="text-align: center; margin: 8vw 0 6vw 0;">
+      Users say about MailNhanh
+    </h3>
+    <div class="bg-rect-2-wrap">
+      <div class="bg-rect-2 shadow"></div>
+    </div>
+    <div class="bg-rect-3-wrap">
+      <div class="bg-rect-3 shadow"></div>
+    </div>
+    <div class="row-3" style="margin: 0 8.33vw; z-index: -100;">
+      <div class="col">
+        <div class="testimonials-card shadow">
+          <p style="margin: 0; text-align: justify;">
+            “Hỗ trợ cho công việc admin BDS khác nhiều trong việc chăm sóc khách hàng. Cần thêm video hướng dẫn basic
+            nhé!
+            Super like and đợi thêm nhiều tính năng update!”
+          </p>
+          <p style="margin: 16px 0 0 0; font-weight: 600;">Phan Van</p>
+          <p style="margin: 0; color: var(--gray-color-1); font-size: 14px;">Review on Chrome Web Store</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="testimonials-card shadow">
+          <p style="margin: 0; text-align: justify;">
+            “gửi và quản lí mail dự án rất hiệu quả 👍”<br><br><br><br>
+          </p>
+          <p style="margin: 16px 0 0 0; font-weight: 600;">mamamam mimimi</p>
+          <p style="margin: 0; color: var(--gray-color-1); font-size: 14px;">Review on Chrome Web Store</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="testimonials-card shadow">
+          <p style="margin: 0; text-align: justify;">
+            “app rất ngon.”<br><br><br><br><br>
+          </p>
+          <p style="margin: 16px 0 0 0; font-weight: 600;">Tien Phan</p>
+          <p style="margin: 0; color: var(--gray-color-1); font-size: 14px;">Review on Chrome Web Store</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div id="footer" style="background-color: var(--theme-color-2); margin-top: 10vw; padding: 8vw 0;">
+    <div class="row">
+      <div class="col-1 none-display">.</div>
+      <div class="col-3">
+        <img src="./assets/logo-mailnhanh.png" width="80px">
+        <div style="color: var(--gray-color-2); font-size: 14px; margin: 8px 0 16px 0;">
+          MailNhanh.com © Copyright 2020 - 2021<br>
+          All Rights Reserved
+        </div>
+        <a href="#">
+          <button class="button-3 shadow">
+            Become a sponsor
+          </button>
+        </a>
+        <br><br>
+      </div>
+      <div class="col-2">
+        <div style="font-weight: 700; font-size: 17px;">Product</div>
+        <div class="footer-link"><a href="#features">All Features</a></div>
+        <div class="footer-link"><a href="#">Product Demo</a></div>
+        <div class="footer-link"><a
+            href="https://chrome.google.com/webstore/detail/mailnhanh/npdlcdphomcppnhphhjciapggdpfklfg"
+            target="_blank">Download</a></div>
+        <div class="footer-link"><a href="#">Bugs Report</a></div>
+        <div class="footer-link"><a href="#">Feedback</a></div>
+        <br>
+      </div>
+      <div class="col-2">
+        <div style="font-weight: 700; font-size: 17px;">Resources</div>
+        <div class="footer-link"><a href="#">Guides & Tutorials</a></div>
+        <div class="footer-link"><a href="#">Terms of Use</a></div>
+        <div class="footer-link"><a href="#">Privacy Policy</a></div>
+        <br>
+      </div>
+      <div class="col-2">
+        <div style="font-weight: 700; font-size: 17px;">About Us</div>
+        <div class="footer-link"><a href="#">About MailNhanh</a></div>
+        <div class="footer-link"><a href="#">Meet our team</a></div>
+        <div class="footer-link"><a href="#">Join us</a></div>
+        <br>
+      </div>
+      <div class="col-2">
+        <div style="font-weight: 700; font-size: 17px;">Contact</div>
+        <div class="footer-link"><a href="#">Email</a></div>
+        <div class="footer-link"><a href="#">LinkedIn</a></div>
+        <div class="footer-link"><a href="#">Twitter</a></div>
+        <div class="footer-link"><a href="#">Facebook</a></div>
+        <div class="footer-link"><a href="#">Youtube</a></div>
+        <br>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
